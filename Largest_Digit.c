@@ -3,14 +3,14 @@ int main ()
 {
     int n,rem,big= 0;
     scanf ("%d",&n);
-    while (n>0) 
+    while (n>0)
     {
-        rem=n%10;
-        if (big<rem)
-        {
-            big=rem;
-        }
-        n=n/10;
+rem=n%10;
+if (big<rem)
+ {
+       big=rem;
+ }
+ n=n/10;
     }
-    printf ("%d", big);
+printf ("%d", big);
 }
